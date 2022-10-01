@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Your name">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Your name professional website">
+	<meta name="viewport" content="width=device-width, initial-scale-1.0" />
+    
+    <title>Pamela's Diner</title>
+    
+    <link rel="stylesheet" media="all" type="text/css" href="css/styles.css" /> 
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery.lightbox.css" />
+
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript">  </script>
+	<script src="js/jquery-ui.min.js" type="text/javascript">  </script>
+    <script src="js/jquery.lightbox.min.js"></script>
+	<script src="js/scripts.js" type="text/javascript"> </script>  
+    <script>
+		$(function() {
+			$( "#accordion" ).accordion();
+		});
+    </script>
+
+</head>
+
+<body>
+	<!-- main container starts -->
+	<div id = "container">
+
+		<!-- .header-wrapper starts -->
+		<div id = "header">
+
+			<!-- #header1 starts -->
+			<div id = "header1">
+				<a href = "index.html">
+					<img src = "images/pamelaslogo.jpg" alt = "logo image">
+				</a> 
+				<h1>
+				<div id = "show_title">Pamela's Diner</div>
+				</h1>
+				<!-- #initial-menu starts -->
+				<nav>
+					<a href = "menu.html">Menu</a> | 
+					<a href = "https://www.toasttab.com/pamela-s-diner-strip-district-60-21st-street/v3">Order Online</a> | 
+					<a href = "locations.html">Locations</a> | 
+					<a href = "reviews.html">What everyone's saying</a> |
+					<a href = "contact.html">Contact</a> 
+				</nav>
+
+			</div><!-- #header1 ends -->
+
+    <div id="content">
+        <h1>Menu</h1>
+        <div id="table">
+            <div id="foodpics"> <!--Foods that are sold in the restaurant-->
+				  <img src="images/img1.jpg" alt="image 1" width = "200" height="200">
+				  <img src="images/img2.jpg" alt="image 2" width = "200" height="200">
+				  <img src="images/img3.jpg" alt="image 3" width = "200" height="200">
+				  </div>
+            <div id="accordion"> <!--created table of the most important and significant menus-->
+                    <h4>Fan Favorites</h4>
+                      <div><p>
+                        Here are some of the Fan Favorites: 
+                        </p>
+                        <ul>
+                            <li>TEX-MEX OMELET: Chorizo sausage, cheddar cheese and salsa, topped with guacamole & sour cream,served with Lyonniase potatoes & toast</li>
+                            <li> GAIL'S FAVORITE EGGS: Lightly scrambled, topped with cream cheese & scallions,served with Lyonnaise potatoes & toast</li>
+                          </ul></div>
+                      <h4>Egg Combos</h4>
+                      <div><p>
+                        Served with your choice of our Lyonnaise potatoes, French fries or tomato slices (Substitute fruit cup for more) & toast
+                        </p>
+                        <ul>
+                            <li>MEAT & EGGS: 2 eggs any style with your choice of double smoked, thick-slice bacon, hand-carved ham, sausage links or turkey sausage patties</li>
+                            <li>KIELBASA & EGGS: 2 eggs any style with grilled kielbasa</li>
+                            <li>2 EGGS: Any style</li>
+                          </ul></div>
+                      <h4>Hotcakes, French Toast & Waffles</h4>
+                      <div><p>
+                        Pamela's Famous Hotcakes, French Toaste & Waffles: 
+                        </p>
+                        <ul>
+                          <li>PAMELA’S FAMOUS CREPE-STYLE HOTCAKES: Choice of meat – double smoked, thick- sliced bacon hand-carved ham, sausage links or turkey sausage patties</li>
+                          <li>CREPE-STYLE SHORT STACK HOTCAKES: double smoked, thick- sliced bacon,hand-carved ham, sausage links or turkey sausage patties</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <button onclick="window.open('menu.pdf');">Menu </button>
+                </div>
+            </div> <!-- Close content -->
+            <footer>
+                <a href = "https://www.facebook.com/pamelasdiner"><img src = "images/facebook.png" width = "35" height = "35"></a>
+                <a href = "https://www.instagram.com/pamelasdiner"><img src = "images/instagram.png" width = "35" height = "35"></a>
+                <a href = "https://twitter.com/pgpamelasdiner"><img src = "images/twitter.png" width = "35" height = "35"></a>
+                <a href = "https://www.yelp.com/biz/p-and-gs-pamelas-diner-pittsburgh"><img src = "images/yelp.png" width = "35" height = "35"></a>
+                <h1>Copyright &copy; 1979. Pamela's Diner.</h1>
+            </footer>
+            </div>
+    </div>
+        </body>
+        </html>

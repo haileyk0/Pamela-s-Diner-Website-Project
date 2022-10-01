@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Your name">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Your name professional website">
+	<meta name="viewport" content="width=device-width, initial-scale-1.0" />
+    
+    <title>Pamela's Diner</title>
+    
+    <link rel="stylesheet" media="all" type="text/css" href="css/styles.css" /> 
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery.lightbox.css" />
+
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript">  </script>
+	<script src="js/jquery-ui.min.js" type="text/javascript">  </script>
+    <script src="js/jquery.lightbox.min.js"></script>
+	<script src="js/scripts.js" type="text/javascript"> </script>  
+    <script>
+		$(function() {
+		  	$( "#tabs" ).tabs({
+		    	event: "mouseover"
+		  	});
+		});
+    </script>
+        <script type="text/JavaScript">
+		$(function() {
+		$('#gallery a').lightBox();
+	 });
+	</script>
+
+</head>
+
+<body>
+	<!-- main container starts -->
+	<div id = "container">
+
+		<!-- .header-wrapper starts -->
+		<div id = "header">
+
+			<!-- #header1 starts -->
+			<div id = "header1">
+				<a href = "index.html">
+					<img src = "images/pamelaslogo.jpg" alt = "logo image">
+				</a> 
+				<h1>
+				<div id = "show_title">Pamela's Diner</div>
+				</h1>
+				<!-- #initial-menu starts -->
+				<nav>
+					<a href = "menu.html">Menu</a> | 
+					<a href = "https://www.toasttab.com/pamela-s-diner-strip-district-60-21st-street/v3">Order Online</a> | 
+					<a href = "locations.html">Locations</a> | 
+					<a href = "reviews.html">What everyone's saying</a> |
+					<a href = "contact.html">Contact</a> 
+				</nav>
+
+			</div><!-- #header1 ends -->
+    <div id="content"> <!-- includes locations and hours -->
+        <h1>Location & Hours</h1>
+        <h3>Pamela's Diner Strip District</h3> <!--Name of the diner-->
+        <p>60 21st St, Pittsburgh, PA 15222</p> <!--Address and google map-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d759.0135877722194!2d-79.983651!3d40.451934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2b6723dae7142a78!2sPamela&#39;s%20Diner!5e0!3m2!1sen!2sus!4v1648875233993!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+        <div id="container-graph"></div>
+        <div id="sidebar">
+            <h1>Hours of Operation</h1>
+            Monday: 8AM-2PM<br/>
+            Tuesday: 8AM-2PM<br/>
+            Wednesday: 8AM-2PM<br/>
+            Thursday: 8AM-2PM<br/>
+            Friday: 8AM-2PM<br/>
+            Saturday: 8AM-2PM<br/>
+            Sunday: 8AM-2PM<br/>
+            (412) 281-6366 (c)<br/><br/>
+        </div> <!--Close sidebar  -->
+    </div>
+        <footer>
+            <a href = "https://www.facebook.com/pamelasdiner"><img src = "images/facebook.png" width = "35" height = "35"></a>
+            <a href = "https://www.instagram.com/pamelasdiner"><img src = "images/instagram.png" width = "35" height = "35"></a>
+            <a href = "https://twitter.com/pgpamelasdiner"><img src = "images/twitter.png" width = "35" height = "35"></a>
+            <a href = "https://www.yelp.com/biz/p-and-gs-pamelas-diner-pittsburgh"><img src = "images/yelp.png" width = "35" height = "35"></a>
+            <h1>Copyright &copy; 1979. Pamela's Diner.</h1>
+        </footer>
+        </div>
+        </div>
+    </body>
+    </html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Your name">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Your name professional website">
+	<meta name="viewport" content="width=device-width, initial-scale-1.0" />
+    
+    <title>Pamela's Diner</title>
+    
+    <link rel="stylesheet" media="all" type="text/css" href="css/styles.css" /> 
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery.lightbox.css" />
+
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript">  </script>
+	<script src="js/jquery-ui.min.js" type="text/javascript">  </script>
+    <script src="js/jquery.lightbox.min.js"></script>
+	<script src="js/scripts.js" type="text/javascript"> </script>  
+    <script>
+		$(function() {
+		  	$( "#tabs" ).tabs({
+		    	event: "mouseover"
+		  	});
+		});
+    </script>
+        <script type="text/JavaScript">
+		$(function() {
+		$('#gallery a').lightBox();
+	 });
+	</script>
+</head>
+<body>
+	<!-- main container starts -->
+	<div id = "container">
+
+		<!-- .header-wrapper starts -->
+		<div id = "header">
+
+			<!-- #header1 starts -->
+			<div id = "header1">
+				<a href = "index.html">
+					<img src = "images/pamelaslogo.jpg" alt = "logo image">
+				</a> 
+				<h1>
+				<div id = "show_title">Pamela's Diner</div>
+				</h1>
+				<!-- #initial-menu starts -->
+				<nav>
+					<a href = "menu.html">Menu</a> | 
+					<a href = "https://www.toasttab.com/pamela-s-diner-strip-district-60-21st-street/v3">Order Online</a> | 
+					<a href = "locations.html">Locations</a> | 
+					<a href = "reviews.html">What everyone's saying</a> |
+					<a href = "contact.html">Contact</a> 
+				</nav>
+
+			</div><!-- #header1 ends -->
+        
+        <div id="certificate"> <!--includes photos of how many reviews diner got-->
+            <h1>Certified By:</h1>
+            <img src="images/review1.png" alt="image 1" width = "400" height="200">
+            <img src="images/review2.png" alt="image 2" width = "400" height="200">
+            <img src="images/review3.png" alt="image 3" width = "400" height="200">
+        </div>
+
+        <div id="reviews"> <!--highlights of reviews-->
+            <h1>Popular Reviews</h1>
+            <h3>"One of the Best Breakfast I have had."</h3>
+            <p>Pamela's Diner has been a staple of the Strip District and other neighborhoods throughout the city. 
+                They have the most incredible lyonnaise potatoes, hot cakes, breakfast varieties for all. 
+                I highly recommend this Strip District location just for the historical photographs and ambience of the 50's style diner. 
+                Definitely make sure you come early because they are packed on the weekends! 
+                They do have outdoor seating when the weather is nice which is so great for people watching! 
+                And it's so great to be outside dining. Great service quick & efficient.</p>
+        </div>
